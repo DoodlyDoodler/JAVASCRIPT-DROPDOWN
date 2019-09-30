@@ -1,0 +1,61 @@
+/* Simarpreet Singh (200413865) */
+
+body
+{
+  background-color:black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* animation */
+			@keyframes animation {
+    from {color: black;}
+    to {color: #ff0074;}
+	}
+
+h1, h2{ color: black; font-weight: bold; font-style:italic; font-family: "Frijole", cursive;animation-name: animation;animation-duration: 5s; animation-iteration-count: infinite;}
+
+
+div
+  {
+    background-image: url("images/surprise.gif");
+    background-size: 100% 100%;
+    border: 10px ridge #ff0074;
+  }
+
+h1
+ {
+  text-align: center;
+  font-family: Frijole;
+  font-size: 50px;
+  color: black;
+ }
+
+h2
+ {
+  text-align: center;
+  font-family: cursive;
+  font-size: 30px;
+  color: black;
+ }
+
+label
+ {
+  font-family: Frijole;
+  font-size: 28px;
+  padding-left: 5%;
+  color: #ff0074;
+ }
+
+select
+ {
+  margin-top: 13px;
+  margin-left: 5%;
+  width: 400px;
+  color: black;
+ }
+
+p
+ {
+  text-align: center;
+ }
